@@ -46,6 +46,12 @@ export const Route = createRootRoute({
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "Numerology Sword — AI Numerology Reading" },
+      { name: "description", content: "Life Path Oracle provides personalized numerology readings using AI to reveal life path insights." },
+      { property: "og:description", content: "Life Path Oracle provides personalized numerology readings using AI to reveal life path insights." },
+      { name: "twitter:description", content: "Life Path Oracle provides personalized numerology readings using AI to reveal life path insights." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f3cb2399-68c1-42d6-be7f-59b6987f98d6/id-preview-b949dbc8--48668e97-423d-4dcc-bfd8-5fe08441aefd.lovable.app-1778064326541.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f3cb2399-68c1-42d6-be7f-59b6987f98d6/id-preview-b949dbc8--48668e97-423d-4dcc-bfd8-5fe08441aefd.lovable.app-1778064326541.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
