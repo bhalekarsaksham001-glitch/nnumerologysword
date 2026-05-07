@@ -5,7 +5,7 @@ import { Landing } from "@/components/numerology/Landing";
 import { ReadingForm, type ReadingFormData } from "@/components/numerology/ReadingForm";
 import { AdGate } from "@/components/numerology/AdGate";
 import { Reading } from "@/components/numerology/Reading";
-import { generateReading } from "@/server/numerology.functions";
+import { generateReading } from "@/functions/numerology.functions";
 
 export const Route = createFileRoute("/")({
   component: Index,
